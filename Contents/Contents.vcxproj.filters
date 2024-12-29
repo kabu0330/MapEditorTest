@@ -5,11 +5,13 @@
     <ClCompile Include="PlayGameMode.cpp" />
     <ClCompile Include="TileMapGameMode.cpp" />
     <ClCompile Include="PreCompile.cpp" />
+    <ClCompile Include="TileMap.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EduContentsCore.h" />
     <ClInclude Include="PlayGameMode.h" />
     <ClInclude Include="TileMapGameMode.h" />
     <ClInclude Include="PreCompile.h" />
+    <ClInclude Include="TileMap.h" />
   </ItemGroup>
 </Project>

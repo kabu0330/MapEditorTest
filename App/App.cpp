@@ -10,7 +10,6 @@
 #include <functional>
 
 #include <Contents/EduContentsCore.h>
-
 #include <EngineCore/EngineAPICore.h>
 
 #pragma comment (lib, "EngineCore.lib")

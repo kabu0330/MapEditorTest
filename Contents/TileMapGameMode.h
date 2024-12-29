@@ -1,5 +1,6 @@
 #pragma once
 #include <EngineCore/GameMode.h>
+#include "TileMap.h"
 
 
 // Ό³Έν :
@@ -22,8 +23,8 @@ protected:
 	void Tick(float _DeltaTime) override;
 
 private:
-	//ATileMap* WallTileMap = nullptr;
-	//ATileMap* GroundTileMap = nullptr;
+	ATileMap* WallTileMap = nullptr;
+	ATileMap* GroundTileMap = nullptr;
 
 };
 

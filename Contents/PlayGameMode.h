@@ -1,6 +1,5 @@
 #pragma once
 #include <EngineCore/GameMode.h>
-#include <EnginePlatform/EngineSound.h>
 
 // Ό³Έν :
 class APlayGameMode : public AGameMode

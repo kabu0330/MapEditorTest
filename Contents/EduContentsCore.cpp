@@ -8,7 +8,6 @@
 #include <EngineBase/EngineDebug.h>
 #include <EngineBase/EngineFile.h>
 #include <EngineCore/ImageManager.h>
-#include <EnginePlatform/EngineSound.h>
 
 #include "PlayGameMode.h"
 #include "TileMapGameMode.h"
@@ -94,15 +93,15 @@ void EduContentsCore::BeginPlay()
 
 	//}
 
-	//{
-	//	// 타일셋 로드
-	//	UEngineDirectory Dir;
-	//	Dir.MoveParentToDirectory("Resources//Image");
-	//	Dir.Append("TileMap//TileSet");
+	{
+		// 타일셋 로드
+		UEngineDirectory Dir;
+		Dir.MoveParentToDirectory("Resources//Image");
+		Dir.Append("TileMap//TileSet");
 
-	//	UImageManager::GetInst().LoadFolder(Dir.GetPathToString());
+		UImageManager::GetInst().LoadFolder(Dir.GetPathToString());
 
-	//}
+	}
 
 
 	UEngineAPICore::GetCore()->GetMainWindow().SetWindowTitle("EduWindow");
